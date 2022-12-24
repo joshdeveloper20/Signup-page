@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODAR</title>
+    <!-- 
+        -custom css
+     -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- 
+        -font awesome
+      -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-box">
+        <div class="header">
+          <img
+            src="./assets/img/codar-logo.png"
+            width="200"
+            height="100"
+            alt="codar"
+          />
+        </div>
+        <form>
+          <h2>Sign Up</h2>
+          <div class="input-group">
+            <label for="fname">First Name</label>
+            <div class="inner-input-group">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" name="fname" id="fname" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="lname">Last Name</label>
+            <div class="inner-input-group">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" name="lname" id="lname" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <div class="inner-input-group">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="text" name="email" id="email" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email">Password</label>
+            <div class="inner-input-group">
+              <input type="password" name="password" id="password" />
+              <i class="fa-regular fa-eye-slash"></i>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email">Retype Password</label>
+            <div class="inner-input-group">
+              <input type="password" name="password" id="password" />
+              <i class="fa-regular fa-eye-slash"></i>
+            </div>
+          </div>
+          <div class="input-group gender">
+            <span class="title">Gender</span>
+            <div class="group-radiobox">
+              <div class="radio-box">
+                <input type="radio" name="gender" id="gender" />
+                <span>Male</span>
+              </div>
+              <div class="radio-box">
+                <input type="radio" name="gender" id="gender" />
+                <span>Female</span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
