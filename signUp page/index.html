@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODAR</title>
+    <!-- 
+        -custom css
+     -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- 
+        -font awesome
+      -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="side-box">
+        <div class="side-box-header">
+          <img src="./assets/img/codar-logo.png" alt="codar" />
+        </div>
+        <div class="img-con">
+          <img src="./assets/img/i14@2x.png" alt="" />
+        </div>
+      </div>
+      <!-- form box -->
+      <div class="form-box">
+        <div class="header">
+          <h2>Sign Up Here</h2>
+        </div>
+        <form>
+          <div class="group">
+            <div class="input-group">
+              <label for="fname">First Name</label>
+              <div class="inner-input-group">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" name="fname" id="fname" />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="lname">Last Name</label>
+              <div class="inner-input-group">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" name="lname" id="lname" />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <div class="inner-input-group">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="text" name="email" id="email" />
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="password">Password</label>
+              <div class="inner-input-group">
+                <input type="password" name="password" id="password" />
+                <i class="fa-regular fa-eye-slash"></i>
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="retype-password">Retype Password</label>
+              <div class="inner-input-group">
+                <input type="password" name="password" id="retype-password" />
+                <i class="fa-regular fa-eye-slash"></i>
+              </div>
+            </div>
+            <!-- radio input -->
+
+            <!-- end of radioinput -->
+            <button class="btn">Sign Up</button>
+            <div class="member">
+              <p>Already has an account <span class="sign-in">Sign In</span></p>
+            </div>
+          </div>
+          
+        </form>
+        <!-- form 2 -->
+        <form class="form-2 hidden">
+            
+          <div class="group">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <div class="inner-input-group">
+                  <i class="fa-regular fa-envelope"></i>
+                  <input type="text" name="email" id="email" />
+                </div>
+              </div>
+              <div class="input-group">
+                <label for="password">Password</label>
+                <div class="inner-input-group">
+                  <input type="password" name="password" id="password" />
+                  <i class="fa-regular fa-eye-slash"></i>
+                </div>
+                <button class="btn">Sign Up</button>
+               <div class="member">
+                <p>Sign up to become a member <span class="sign-up">Sign Up</span></p>
+              </div> 
+          </div>
+        
+        </form>
+        <!-- end of form 2 -->
+      </div>
+      <!-- end of form box -->
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

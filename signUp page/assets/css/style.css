@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  /* background: linear-gradient(rgb(80, 58, 97), rgb(181, 80, 116)); */
+  background-color: #012e4d;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #960837;
+  padding: 20px 40px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin-block-end: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #bf2458;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+p span {
+  color: #012e4d;
+  cursor: pointer;
+}
+
+p span:hover {
+  font-weight: 500;
+}
+
+.wrapper {
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+  /* width: 100%; */
+  max-width: 1100px;
+  margin: 5% auto;
+  background-color: #fff;
+  padding-inline: 1.5rem;
+  padding-block: 2rem 2rem;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .side-box {
+  width: 500px;
+}
+
+.wrapper .side-box-header img {
+  display: block;
+  width: 200px;
+  height: 90px;
+}
+
+.side-box .img-con {
+  width: 100%;
+  margin-block-start: 9rem;
+}
+
+.side-box .img-con img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.wrapper .form-box {
+  flex-basis: 50%;
+}
+
+.header {
+  /* height: 120px; */
+  /* border-bottom: 2px solid #012e4d; */
+  margin-block-end: 1rem;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  color: #012e4d;
+}
+
+.group {
+  margin-inline-end: 1rem;
+}
+
+.wrapper form {
+  padding-block-start: 2rem;
+  overflow-y: scroll;
+  height: 650px;
+}
+
+.wrapper form::-webkit-scrollbar {
+  width: 10px;
+}
+
+.wrapper form::-webkit-scrollbar-track {
+  background-color: #012e4d;
+}
+.wrapper form::-webkit-scrollbar-thumb {
+  background-color: #2b85c2;
+}
+
+.wrapper .form-2::-webkit-scrollbar {
+  width: none;
+}
+
+.wrapper .form-2::-webkit-scrollbar-track {
+  background-color: unset;
+}
+.wrapper .form-2::-webkit-scrollbar-thumb {
+  background-color: unset;
+}
+
+.input-group {
+  padding-block: 2.5rem;
+  margin-bottom: 1.15rem;
+}
+
+.input-group label,
+.input-group .title {
+  font-size: 2rem;
+}
+
+.inner-input-group {
+  height: 4rem;
+  border-bottom: 2px solid #012e4d;
+  display: flex;
+  align-items: center;
+}
+
+.inner-input-group input {
+  height: inherit;
+  font-size: 2rem;
+  flex-basis: 100%;
+  background: transparent;
+}
+
+.inner-input-group i {
+  font-size: 2rem;
+  margin-right: 0.8rem;
+  opacity: 0.8;
+}
+
+.fa-eye-slash {
+  cursor: pointer;
+}
+
+.fa-eye-slash:hover {
+  opacity: 0.6;
+}
+
+.gender {
+  display: flex;
+  gap: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-2 .btn {
+  margin-block-start: 1.5rem;
+}
